@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    margin-bottom: 4rem;
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 130px;
+    padding-right: 130px;
+    background-color: #FBF9F9;
+    
+}
+
+.logo{
+    width: 74pxpx;
+    height: 49px;
+    overflow: hidden;
+    
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.nav{
+    align-content: center;
+}
+
+.list{
+    height: 50px;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{
+    position: relative;
+}
+
+.header .nav ul li{
+    margin-left: 20px;
+}
+
+.button1{
+    background-color: #E14942;
+    border-color: #FDDEDD;
+ 
+    color: white;
+    width: 180px;
+    height: 50px;
+    border-style: double;
+    
+}
+
+.hero-container{
+    display: flex;
+    align-items: top;
+    padding-left: 130px;
+    padding-right: 130px;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    flex-direction: row;
+}
+
+.hero{
+    flex: 1;
+    margin-top: 56px;
+    margin-right: 56px;
+    
+}
+
+.h1{
+    font-family: Young Serif;
+    font-size: 60px;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.p1{
+    font-family: Outfit;
+    font-size: 18px;
+    color: #5F6368;
+    margin-bottom: 16px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.discover-more{
+    color: #E14942;
+    width: 180px;
+    height: 50px;
+   border-color: #E14942;
+   background-color: transparent;
+    
+}
+
+.hero-image-container{
+    width: 50%;
+    height: auto;
+}
+.hero-image-container img{
+    width: 100%;
+    height: auto;
+   
+}
+
+.second-group{
+    
+    padding-left: 130px;
+    padding-right: 130px;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 2rem;
+    height: auto;
+    background-color: #FBF9F9;
+    padding-top: 56px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 20px;
+
+}
+    
+
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+   height: auto;
+   width: 100%;
+   flex-direction: row;
+   
+}
+
+.soon{
+    font-family: Young Serif;
+    font-size: 32px;
+    font-weight: 600;
+   
+}
+
+.below-container{
+    background-color: rgba(255, 73, 66, 0.7);
+    display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+  align-items: center;
+
+}
+
+.card1{
+    width: 30%;
+    height: 234px;
+}
+.img1{
+    width: 100%;
+    height: 234px;}
+
+.img1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.p2{
+    font-family: outfit;
+    font-size: 2rem;
+    color: white;
+}
+
+.p3{
+    font-family: outfit;
+    font-size: 1rem;
+    color: white;
+    margin-top: 8px;
+}
+
+.below-container2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+  align-items: center;
+  background-color: rgba(255, 73, 66, 0.7);
+}
+
+.summer{
+    font-family: outfit;
+    font-size: 2rem;
+    color: white;
+}
+
+.reg{
+    font-family: outfit;
+    font-size: 1rem;
+    color: white;
+    margin-top: 8px;
+}
+
+.card2{
+    width: 30%;
+    height: 234px;
+}
+.img2{
+    width: 100%;
+    height: 234px;}
+
+.img2 img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.below-container3{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+  align-items: center;
+  background-color: rgba(255, 73, 66, 0.7);
+ 
+}
+
+.community{
+    font-family: outfit;
+    font-size: 2rem;
+    color: white;
+}
+
+.date{
+    font-family: outfit;
+    font-size: 1rem;
+    color: white;
+    margin-top: 8px;
+}
+
+.card3{
+    width: 30%;
+    height: 234px;
+}
+.img3{
+    width: 100%;
+    height: 234px;}
+
+.img3 img{
+    height: 100%;
+    width: 100%;
+}
